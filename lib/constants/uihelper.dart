@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class UiHelper{
+class UiHelper{//Kullanıcı arayüzü ile ilgili responsive tasarımlar.
   UiHelper._();
 
   static double getApptitlewidgetHeight(){
@@ -15,7 +15,7 @@ class UiHelper{
     return ScreenUtil().orientation==Orientation.portrait?0.2.sw:0.2.sh;
   }
 
-   static final Map<String, Color> _typeColorMap = {
+   static final Map<String, Color> _typeColorMap = {//Yapılan işlemler neler yaptık yapılan işlemler 
     'Grass': Colors.green,
     'Fire': Colors.redAccent,
     'Water': Colors.blue,
